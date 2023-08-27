@@ -1,6 +1,6 @@
 {
     "name": "@hebilicious/libsql-client",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "keywords": [
         "libsql",
         "database",
@@ -13,7 +13,7 @@
     "description": "libSQL driver for TypeScript and JavaScript",
     "repository": {
         "type": "git",
-        "url": "https://github.com/libsql/libsql-client-ts"
+        "url": "https://github.com/Hebilicious/libsql-client-ts"
     },
     "authors": [
         "Jan Špaček <honza@chiselstrike.com>",
