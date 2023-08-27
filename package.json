@@ -1,6 +1,6 @@
 {
-    "name": "@libsql/client",
-    "version": "0.3.2-pre.0",
+    "name": "@hebilicious/libsql-client",
+    "version": "0.0.1",
     "keywords": [
         "libsql",
         "database",
@@ -99,7 +99,8 @@
         "test": "jest --runInBand",
         "test:bun": "bun test bun",
         "typecheck": "tsc --noEmit",
-        "typedoc": "rm -rf ./docs && typedoc"
+        "typedoc": "rm -rf ./docs && typedoc",
+        "publish": "npm run build && bumpp && npm publish --access public"
     },
     "dependencies": {
         "@libsql/hrana-client": "^0.5.0-pre.2",
